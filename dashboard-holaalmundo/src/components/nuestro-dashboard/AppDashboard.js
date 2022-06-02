@@ -4,13 +4,13 @@ import Header from './Header/Header';
 import MenuLateral from './MenuLateral/MenuLateral';
 import { BrowserRouter} from 'react-router-dom';
 
+
 function AppDashboard() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Header />
-        <MenuLateral/>
-        
+        <Header /> 
+        <MenuLateral/> {/* sidebar */}
       </div>
     </BrowserRouter>
   );

@@ -3,6 +3,7 @@ import '../../../assets/css/myStyle.css';
 import Card from '../Elementos/Card';
 import Tabla from '../Elementos/Tabla';
 import UltimoCurso from '../Elementos/UltimoCurso';
+
 let cardProfes = {
   color: 'violeta',
   cuantity: '500',

@@ -17,7 +17,7 @@ function MenuLateral() {
       </div>
       <div className='contDash'>
             <Body/>
-          </div>
+      </div>
     </div>
    
 
