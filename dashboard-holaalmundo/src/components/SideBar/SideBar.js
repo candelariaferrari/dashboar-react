@@ -22,7 +22,7 @@ function MenuLateral() {
       </div>
       <Switch>
         <Route exact path="/">
-        <ContentWrapper />
+          <ContentWrapper/>
         </Route>
         <Route path="/Pages/Productos">
           <Productos />

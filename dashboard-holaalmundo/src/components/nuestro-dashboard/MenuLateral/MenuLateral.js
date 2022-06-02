@@ -12,27 +12,27 @@ function MenuLateral() {
         <div id="sidebar">
           <ul>
             <li>
-            <Link className="nav-item" to="/">
-            <span>Dashboard</span>
-          </Link>
+              <Link className="nav-item" to="/">
+                <span>Dashboard</span>
+              </Link>
             </li>
             <li>
-            <Link className="nav-item" to="/Productos">
-            <span>Productos</span>
-          </Link>
+              <Link className="nav-item" to="/productos">
+                <span>Productos</span>
+              </Link>
             </li>
           </ul>
         </div>
         <Switch>
-        <Route exact path="/">
-          <Body className='contDash'/>{/* contentRowCenter */}
-        </Route>
-        <Route path="../Pages/Productos">
-          <Productos />
-        </Route>
-      </Switch>
+          <Route exact path="/">
+            <Body className='contDash' />{/* contentRowCenter */}
+          </Route>
+          <Route path="../Page/Productos" >-
+            <Productos />
+          </Route>
+        </Switch>
       </div>
-      
+
     </React.Fragment>
   )
 }

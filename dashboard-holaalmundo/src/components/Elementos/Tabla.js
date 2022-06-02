@@ -52,13 +52,13 @@ function Tabla() {
     <div className="col-md-8">
       <div className="contentTabla">
         <div className='row tituloTabla'>
-          <div className='col-md-4 textoTitulo'>
+          <div className='col-md-6 col-lg-5 textoTitulo'>
             Idioma
           </div>
-          <div className='col-md-4 textoTitulo'>
+          <div className='col-md-6 textoTitulo'>
             Profesores
           </div>
-          <div className='col-md-4 textoTitulo'>
+          <div className='col-md-2 textoTitulo'>
             TOTAL
           </div>
         </div>

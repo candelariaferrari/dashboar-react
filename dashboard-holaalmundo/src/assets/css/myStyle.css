@@ -89,7 +89,7 @@ span.textName {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5em;
+  padding: 0.5em 1em 1em;
   box-sizing: border-box;
 }
 
@@ -98,6 +98,7 @@ span.textName {
   font-weight: 800;
   color: #fff;
   margin-bottom: -0.1em;
+  text-align: center;
 }
 
 .inCard p {
@@ -105,10 +106,12 @@ span.textName {
   font-weight: 500;
   color: #fff;
   margin-bottom: -0.1em;
+  text-align: center;
 }
 
 .img-card {
   width: 60px;
+  float: right;
 }
 
 .bkg-succes {
@@ -145,6 +148,7 @@ h2.tituloUltimo {
   border-radius: 15px;
   width: 80%;
   margin: 1em auto;
+  text-align: center;
 }
 .flexProfes{
   display: flex;
@@ -176,18 +180,122 @@ h2.tituloUltimo {
   font-size: 16px;
 }
 
-.bodyProducto{
-  background-color: red;
-  height: 100vh;
-}
+
 
 
 /* tabla  */
 .tituloTabla{
-  padding: 1em 2em;
+  padding: 0.5em 2em;
+  margin: 0.5em auto -0.5em;
+
 }
 .textoTitulo{
   color:#fff;
   font-size: 0.9rem;
   font-weight: 600;
+}
+
+.filaTabla{
+  padding: 0.5em 2em;
+  border: 1px solid #00FFCB;
+  border-radius: 5px;
+  margin: 0.8em auto;
+}
+.textoFila{
+  color:#fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* ***** productos */
+.flexCursos{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  padding: 2em 0em;
+}
+.cardCurso{
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+.cardCurso .inCard{
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardCurso h2{
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: 1px solid #00FFCB;
+  text-align: left;
+}
+
+.cardCurso p{
+  padding-top: 0.5em;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  
+  text-align: left;
+}
+
+.ver{
+  background-color: #00FFCB;
+  border: none;
+  margin-top: 2em;
+  border-radius: 5px;
+}
+
+
+/* mas vendido */
+
+.tituloMasVendido{
+  background-color: #6243F7;
+  margin: 1em auto;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  text-align: center;
+  color: #fff;
+  width: 80%;
+}
+.tituloMasVendido h2{
+  font-size: 1.5rem ;
+  margin-bottom: 0px;
+}
+.tituloMasVendido h4{
+  font-size: 1rem ;
+  margin-bottom: 0px;
+}
+
+.contentRanking{
+  background-color: #00FFCB;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  width: 90%;
+  margin: 1.2em auto !important;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 1em;
+ 
+}
+.contentRanking .numberR{
+  font-size: 25px;
+  font-weight: 800;
+  margin-right: 2em;
+  color: #3651F7;
+  margin-bottom: 0px;
+}
+.contentRanking .languageR{
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0px;
 }
