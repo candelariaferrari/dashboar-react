@@ -77,11 +77,12 @@ span.textName {
 
 .widthBody {
   padding-top: 0.5em;
+  width: 72vw;
 }
 
 .flexUno {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .inCard {
@@ -173,4 +174,9 @@ h2.tituloUltimo {
   text-align: left;
   color: #fff;
   font-size: 16px;
+}
+
+.bodyProducto{
+  background-color: red;
+  height: 100vh;
 }

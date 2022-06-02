@@ -2,7 +2,7 @@ import React from "react";
 
 function Productos() {
   return (
-    <div className='flexUno'>
+    <div className="bodyProducto">
      hola producto
     </div>
   )

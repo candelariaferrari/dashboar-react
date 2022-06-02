@@ -1,26 +1,39 @@
 import React from 'react';
 import '../../../assets/css/myStyle.css';
 import Body from '../Body/Body';
+import Productos from '../Pages/Productos';
+import { Link, Route, Switch } from 'react-router-dom';
 
 
 function MenuLateral() {
   return (
-    <div className='flexUno'>
-      <div id="sidebar">
-       
-        
-          <span className='itemLink'>Dashboard</span>
-        
-          
-          <span className='itemLink'>Productos</span>
-        
+    <React.Fragment>{/* sidebar */}
+      <div className='flexUno'>
+        <div id="sidebar">
+          <ul>
+            <li>
+            <Link className="nav-item" to="/">
+            <span>Dashboard</span>
+          </Link>
+            </li>
+            <li>
+            <Link className="nav-item" to="/Productos">
+            <span>Productos</span>
+          </Link>
+            </li>
+          </ul>
+        </div>
+        <Switch>
+        <Route exact path="/">
+          <Body className='contDash'/>{/* contentRowCenter */}
+        </Route>
+        <Route path="../Pages/Productos">
+          <Productos />
+        </Route>
+      </Switch>
       </div>
-      <div className='contDash'>
-            <Body/>
-      </div>
-    </div>
-   
-
+      
+    </React.Fragment>
   )
 }
 export default MenuLateral;

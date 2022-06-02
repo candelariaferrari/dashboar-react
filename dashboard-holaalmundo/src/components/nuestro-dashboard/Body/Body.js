@@ -9,8 +9,7 @@ function Body() { /* contentRowCenter */
   return (
     <div className='row'>
        <ContenedorPag />
-     
-     
+       <Productos /> 
     </div>
    /*  <div id="content-wrapper" className="d-flex flex-column">
       <Header />
