@@ -1,13 +1,14 @@
 import React from 'react';
-import SideBar from './components/SideBar/SideBar';
-
+/* import SideBar from './components/SideBar/SideBar'; */
+import AppDashboard from './components/nuestro-dashboard/AppDashboard';
 
 function App() {
   return (
     <React.Fragment>
-      	<div id="wrapper">
+      {/* 	<div id="wrapper">
           <SideBar />
-        </div>
+        </div> */}
+        <AppDashboard/>
     </React.Fragment>
   );
 }
