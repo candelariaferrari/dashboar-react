@@ -180,3 +180,14 @@ h2.tituloUltimo {
   background-color: red;
   height: 100vh;
 }
+
+
+/* tabla  */
+.tituloTabla{
+  padding: 1em 2em;
+}
+.textoTitulo{
+  color:#fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
