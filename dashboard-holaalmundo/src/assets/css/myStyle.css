@@ -1,0 +1,176 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.black {
+  background-color: #282828;
+  padding: 1em 2em;
+  box-shadow: 0px 5px 4px 2px #21252973;
+}
+
+.navbar {
+  background-color: #282828;
+}
+
+.img-profile {
+  width: 110px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+span.textName {
+  color: #fff;
+  padding-right: 0.5em;
+
+}
+
+.person {
+  width: 40px;
+  color: #fff;
+}
+
+/* sidebar */
+#sidebar {
+  width: 15%;
+  height: 100vh;
+  background: #282828;
+  z-index: -100;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 3em;
+
+}
+
+.contDash {
+  width: 85%;
+  box-sizing: border-box;
+}
+
+.itemLink {
+  text-decoration: none !important;
+  color: #00FFCB;
+  border: 2px solid transparent;
+  font-weight: 600;
+  margin-bottom: 1em;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.bkgBody {
+  background-color: #2D2D35 !important;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: -200;
+  padding: 2em 4em;
+  box-sizing: border-box;
+}
+
+.widthBody {
+  padding-top: 0.5em;
+}
+
+.flexUno {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+.inCard h2 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: -0.1em;
+}
+
+.inCard p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: -0.1em;
+}
+
+.img-card {
+  width: 60px;
+}
+
+.bkg-succes {
+  background-color: red;
+}
+
+.bkg-violeta {
+  background-color: #6243F7;
+}
+
+.bkg-azul {
+  background-color: #3651F7;
+}
+
+.bkg-verde {
+  background-color: #00A987;
+}
+
+.contentUltimoCurso,
+.contentTabla {
+  background-color: #3A3B4F;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 2em;
+  height: 55vh;
+  padding: 0.5em 1em;
+}
+
+h2.tituloUltimo {
+  font-size: 18px;
+  color: #fff;
+  padding: 0.5em 0em;
+  background-color: #6243F7;
+  border-radius: 15px;
+  width: 80%;
+  margin: 1em auto;
+}
+.flexProfes{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5em 0.5em;
+}
+.contentProfe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.img-profe{
+  width: 120px;
+}
+.nombreProfe{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1em;
+}
+.caract{
+  list-style: none;
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+}
