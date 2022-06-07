@@ -6,18 +6,10 @@ import { BrowserRouter} from 'react-router-dom';
 
 
 function AppDashboard() {
- /*  const url = 'http://localhost:3000/api/users';
-  const [milanesa, setTodos] = useState()
-  const fetchApi = async () => {
-    const response = await fetch(url)
-    console.log(response.status);
-    const responseJSON = await response.json()
-    setTodos(responseJSON)
-    console.log(responseJSON);
-  }
-  useEffect(()=>{
-    fetchApi()
-  },[]) */
+  
+
+ 
+  
   return (
     <BrowserRouter>
       <div className="App">
