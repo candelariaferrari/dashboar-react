@@ -25,6 +25,7 @@ let cardCursos = {
 let cartProps = [cardProfes, cardAlumnos, cardCursos];
 
 function Dashboard() {
+  
   return (
     <div className='bkgBody'>
       <div className='widthBody'>
@@ -39,6 +40,7 @@ function Dashboard() {
           <UltimoCurso />
         </div>
       </div>
+      
     </div>
 
   )

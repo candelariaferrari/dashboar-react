@@ -19,13 +19,15 @@ function MenuLateral() {
         <Link to="/productos">
           Productos
         </Link>
+       
 
       </div>
       <Switch>
 
 
-        <Route path="/productos" component={Productos} />
-        <Route exact path="/" component={Body} />{/* contentRowCenter */}s
+        
+        <Route exact path="/" component={Body} />{/* contentRowCenter */}
+        <Route exact path="/productos" component={Productos} />
         <Route component={NotFound} />
         
       </Switch>
