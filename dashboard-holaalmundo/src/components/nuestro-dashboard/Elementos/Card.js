@@ -15,7 +15,7 @@ function Card(props) {
             <p>{props.nombre}</p>
           </div>
           <div className='col-md-6'>
-            <img className="img-card" src={person} alt="logo" />
+            <img className="img-card" src={props.img} alt="logo" />
           </div>
         </div>
       </div>
@@ -28,7 +28,7 @@ Card.defaultProps = {
   color: 'success',
   cuantity: '-',
   nombre: '-',
-  /* img: '-' */
+  img: '-'
 }
 
 Card.propTypes = {
@@ -39,7 +39,7 @@ Card.propTypes = {
       PropTypes.number
   ]).isRequired,
     nombre: PropTypes.string.isRequired,
-    /*  img: PropTypes.string.isRequired */
+    img: PropTypes.string.isRequired
   })
 }
 export default Card;

@@ -3,7 +3,7 @@ import '../../../assets/css/myStyle.css';
 import Card from '../Elementos/Card';
 import Tabla from '../Elementos/Tabla';
 import UltimoCurso from '../Elementos/UltimoCurso';
-
+import person from '../../../assets/images/circle-user-solid.svg';
 function Dashboard() {
   const [teachers, setTeachers] = useState(""); //estado
   const [students, setStudents] = useState(""); //estado
@@ -14,19 +14,19 @@ function Dashboard() {
       color: 'violeta',
       cuantity: teachers,
       nombre: 'profesores',
-      img: 'person'
+      img: person
     },
      {
       color: 'azul',
       cuantity: students,
       nombre: 'alumnos',
-      img: 'person'
+      img: person
     },
      {
       color: 'verde',
       cuantity: classes,
       nombre: 'cursos',
-      img: 'person'
+      img: person
     }
   ]
 
