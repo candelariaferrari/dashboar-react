@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react';
+import React from 'react';
 import '../../assets/css/myStyle.css';
 import Header from './Header/Header';
 import MenuLateral from './MenuLateral/MenuLateral';
@@ -6,8 +6,8 @@ import { BrowserRouter} from 'react-router-dom';
 
 
 function AppDashboard() {
-  const url = 'http://localhost:3000/api/users';
-  const [todos, setTodos] = useState()
+ /*  const url = 'http://localhost:3000/api/users';
+  const [milanesa, setTodos] = useState()
   const fetchApi = async () => {
     const response = await fetch(url)
     console.log(response.status);
@@ -17,7 +17,7 @@ function AppDashboard() {
   }
   useEffect(()=>{
     fetchApi()
-  },[])
+  },[]) */
   return (
     <BrowserRouter>
       <div className="App">

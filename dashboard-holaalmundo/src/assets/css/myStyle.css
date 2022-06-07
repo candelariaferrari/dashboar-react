@@ -36,11 +36,12 @@ span.textName {
 }
 
 /* sidebar */
-#sidebar {
+.nuestroSidebar {
   width: 20%;
   height: 100vh;
   background: #282828;
-  z-index: -100;
+  z-index: 1000 !important;
+  position: relative !important;
   padding-top: 2em;
   display: flex;
   flex-direction: column;

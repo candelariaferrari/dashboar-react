@@ -1,4 +1,5 @@
 import React from "react";
+import '../../../assets/css/myStyle.css';
 import CardCursos from "../Elementos/CardCursos";
 import MasVendido from "../Elementos/MasVendido";
 let cIngles = {

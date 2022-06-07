@@ -10,13 +10,13 @@ function MenuLateral() {
   return (
 
     <div className='flexUno'>
-      <div id="sidebar">
+      <div className='nuestroSidebar'>
 
         <Link to="/" >
           Dashboard
         </Link>
 
-        <Link to="/productos">
+        <Link to="Productos">
           Productos
         </Link>
        
