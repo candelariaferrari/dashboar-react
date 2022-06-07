@@ -3,6 +3,7 @@ import '../../../assets/css/myStyle.css';
 import Body from '../Body/Body';
 import Productos from '../Pages/Productos';
 import { Link, Route, Switch } from 'react-router-dom';
+import NotFound from '../Pages/NotFound';
 
 
 function MenuLateral() {
@@ -12,7 +13,7 @@ function MenuLateral() {
       <div id="sidebar">
 
         <Link to="/" >
-         Dashboard
+          Dashboard
         </Link>
 
         <Link to="/productos">
@@ -21,10 +22,12 @@ function MenuLateral() {
 
       </div>
       <Switch>
-        <Route path="/" component={Body} />{/* contentRowCenter */}
 
-        <Route path="/productos"  component={Productos} />
 
+        <Route path="/productos" component={Productos} />
+        <Route exact path="/" component={Body} />{/* contentRowCenter */}s
+        <Route component={NotFound} />
+        
       </Switch>
 
     </div>
