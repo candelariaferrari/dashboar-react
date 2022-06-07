@@ -3,28 +3,31 @@ import '../../../assets/css/myStyle.css';
 import PropTypes from 'prop-types';
 import person from '../../../assets/images/circle-user-solid.svg';
 function Card(props) {
+
+
   return (
     <div className='col-md-4 contenedorCard'>
-        <div className={`card bkg-${props.color}`}>
-          <div className='row inCard'>
-            <div className='col-md-6'>
-              <h2>{props.cuantity}</h2>
-              <p>{props.nombre}</p>
-            </div>
-            <div className='col-md-6'>
-              <img className="img-card" src={person} alt="logo" />
-            </div>
+      <div className={`card bkg-${props.color}`}>
+        <div className='row inCard'>
+          <div className='col-md-6'>
+            <h2>{props.cuantity}</h2>
+            
+            <p>{props.nombre}</p>
+          </div>
+          <div className='col-md-6'>
+            <img className="img-card" src={person} alt="logo" />
           </div>
         </div>
+      </div>
     </div>
   );
-  
+
 }
 
 Card.defaultProps = {
   color: 'success',
   cuantity: '-',
-  nombre:'-',
+  nombre: '-',
   /* img: '-' */
 }
 
@@ -35,8 +38,8 @@ Card.propTypes = {
       PropTypes.string,
       PropTypes.number
   ]).isRequired,
-    nombre:PropTypes.string.isRequired,
-   /*  img: PropTypes.string.isRequired */
+    nombre: PropTypes.string.isRequired,
+    /*  img: PropTypes.string.isRequired */
   })
 }
 export default Card;
