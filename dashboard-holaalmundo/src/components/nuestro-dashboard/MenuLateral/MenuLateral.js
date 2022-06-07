@@ -8,32 +8,27 @@ import NotFound from '../Pages/NotFound';
 
 function MenuLateral() {
   return (
-
     <div className='flexUno'>
       <div className='nuestroSidebar'>
+        <div className='itemLink'>
+          <Link to="/">
+            Dashboard
+          </Link>
+        </div>
+        <div className='itemLink'>
+          <Link to="Productos">
+            Productos
+          </Link>
+        </div>
 
-        <Link to="/" >
-          Dashboard
-        </Link>
-
-        <Link to="Productos">
-          Productos
-        </Link>
-       
 
       </div>
       <Switch>
-
-
-        
         <Route exact path="/" component={Body} />{/* contentRowCenter */}
         <Route exact path="/productos" component={Productos} />
         <Route component={NotFound} />
-        
       </Switch>
-
     </div>
-
 
   )
 }

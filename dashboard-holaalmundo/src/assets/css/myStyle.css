@@ -58,14 +58,41 @@ span.textName {
 .itemLink {
   text-decoration: none !important;
   color: #00FFCB;
-  border: 2px solid transparent;
   font-weight: 600;
   margin-bottom: 1em;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 2px solid transparent;
+  padding:0.2em 0.5em;
+margin-bottom: 1em;
 }
-
+.itemLink a{
+  text-decoration: none !important;
+  color: #00FFCB;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+.itemLink:hover {
+  border-top: 2px solid #00FFCB;
+  border-bottom: 2px solid #00FFCB;
+  border-left: 2px solid #00FFCB;
+  background-color: #2D2D35;
+  color: #fff;
+}
+.itemLink:active {
+  border-top: 2px solid #00FFCB;
+  border-bottom: 2px solid #00FFCB;
+  border-left: 2px solid #00FFCB;
+  background-color: #2D2D35;
+  color: #fff;
+}
+.itemLink:hover a{
+  color: #fff;
+}
 .bkgBody {
   background-color: #2D2D35 !important;
   height: 100vh;
