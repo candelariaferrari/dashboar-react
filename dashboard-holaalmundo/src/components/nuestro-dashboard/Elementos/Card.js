@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../../assets/css/myStyle.css';
 import PropTypes from 'prop-types';
-import person from '../../../assets/images/circle-user-solid.svg';
+
 function Card(props) {
 
 

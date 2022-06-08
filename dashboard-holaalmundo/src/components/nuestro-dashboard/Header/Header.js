@@ -12,7 +12,7 @@ function Header() {
         const response = await fetch(url); //espere a hacer la busqueda
         const json = await response.json(); //lo transformamos en json
         console.log(json); //array completo
-        console.log("hoola" + " " + json.data[0].name);
+       
         setUsers(json.data[0].name);//lo guardamos en el estado
       } catch (error) {
         console.log("error", error);
