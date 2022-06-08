@@ -2,6 +2,7 @@ import React,{useEffect, useState} from "react";
 import '../../../assets/css/myStyle.css';
 import CardCursos from "../Elementos/CardCursos";
 import MasVendido from "../Elementos/MasVendido";
+import Pagination from '@material-ui/lab/Pagination';
 
 function Productos() {
   /*  const [cursos, setCursos] = useState(""); //estado
