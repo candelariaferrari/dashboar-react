@@ -8,6 +8,7 @@ import ContenedorPag from '../Pages/ContenedorPag';
 function Body() { /* contentRowCenter */
   return (
     <div className="bkgBody">
+      
        <ContenedorPag />
        
     </div>
